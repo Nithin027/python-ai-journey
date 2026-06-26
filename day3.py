@@ -43,7 +43,18 @@ for fruit in fruits:
    if fruit == "mango":
       print("found mango!")
       break
-   print(f"not mago:{fruit}")
+   print(f"not mango:{fruit}")
+
+
+for i in range(1, 15):
+   if i % 3 == 0 and i % 5 == 0:
+      print("ccrazybuzz")
+   elif i % 3 == 0:
+      print("crazy")
+   elif i % 5 == 0:
+      print("buzz")
+   else:
+      print(i)
 
 
 

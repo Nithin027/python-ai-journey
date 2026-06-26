@@ -3,7 +3,7 @@ age = 20
 if  age >= 18:
     print("you are an adult")
 else:
-    print("you ar a minor")
+    print("you are a minor")
 
 marks = 85
 if marks >= 90:
@@ -29,7 +29,7 @@ age = 25
 gpa = 4.5
 
 if age > 18 and gpa > 4.0:
-    print("Eligible for schlorship")
+    print("Eligible for scholarship")
 
 if age < 18 and gpa > 4.8:
     print("special case")

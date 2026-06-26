@@ -82,3 +82,15 @@ def calculate_sum(numbers):
 my_numbers = [1,2,3,4,5]
 result = calculate_sum(my_numbers)
 print(result)
+
+def greet_person(name, message="is going to be AI engineer"):
+    print(f"{name}, {message}")
+
+greet_person("leo") 
+
+def square(x):
+    return  x * x
+square_lambda = lambda x: x * x
+
+print(square(6))
+print(square_lambda(6))
