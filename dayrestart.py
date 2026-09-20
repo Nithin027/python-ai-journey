@@ -1,0 +1,6 @@
+import requests
+
+response =  requests.get("https://api.github.com/users/octocat")
+print(response.status_code)
+data = response.json()
+print(data["name"])
